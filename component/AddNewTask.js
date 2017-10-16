@@ -16,7 +16,7 @@ export class AddNewTask extends React.Component
     render(){
         return(
            <form onSubmit={this.submited}>
-            <input id="t1" type="text"/>
+            <input id="t1" type="text" required/>
             </form>
         );
     }
